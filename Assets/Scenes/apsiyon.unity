@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 10433704}
   - component: {fileID: 10433703}
   m_Layer: 0
-  m_Name: B  Blok /
+  m_Name: B  Blok / 18
   m_TagString: apartment-noelectric
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -706,7 +706,7 @@ GameObject:
   - component: {fileID: 23614346}
   - component: {fileID: 23614345}
   m_Layer: 0
-  m_Name: B  Blok /
+  m_Name: B Blok / 3
   m_TagString: apartment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2160,7 +2160,7 @@ GameObject:
   - component: {fileID: 62205693}
   - component: {fileID: 62205692}
   m_Layer: 0
-  m_Name: B  Blok /
+  m_Name: B  Blok / 4
   m_TagString: apartment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10112,7 +10112,7 @@ GameObject:
   - component: {fileID: 304611159}
   - component: {fileID: 304611158}
   m_Layer: 0
-  m_Name: B  Blok /
+  m_Name: B  Blok / 16
   m_TagString: apartment-internet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17286,7 +17286,7 @@ GameObject:
   - component: {fileID: 505402229}
   - component: {fileID: 505402228}
   m_Layer: 0
-  m_Name: 'C-3 Blok / '
+  m_Name: C-3 Blok / 9
   m_TagString: apartment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18671,8 +18671,8 @@ GameObject:
   - component: {fileID: 561944059}
   - component: {fileID: 561944058}
   m_Layer: 0
-  m_Name: 'C-3 Blok / '
-  m_TagString: building
+  m_Name: C-3 Blok / 1
+  m_TagString: apartment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22311,7 +22311,7 @@ GameObject:
   - component: {fileID: 668453744}
   - component: {fileID: 668453743}
   m_Layer: 0
-  m_Name: B  Blok /
+  m_Name: B  Blok / 20
   m_TagString: apartment-noelectric
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26759,7 +26759,7 @@ GameObject:
   - component: {fileID: 790260637}
   - component: {fileID: 790260636}
   m_Layer: 0
-  m_Name: B  Blok /
+  m_Name: B Blok / 5
   m_TagString: apartment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33876,7 +33876,7 @@ GameObject:
   - component: {fileID: 1049864634}
   - component: {fileID: 1049864633}
   m_Layer: 0
-  m_Name: 'C-3 Blok / '
+  m_Name: C-3 Blok / 5
   m_TagString: apartment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58413,6 +58413,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1670717662}
+        m_TargetAssemblyTypeName: TMPro.TMP_InputField, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1846820641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65191,6 +65203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: ece8f5fa20f923548bb8ac342f719bdc, type: 3}
+  cursorMode: 0
   hotSpot: {x: 0, y: 0}
 --- !u!222 &2040871010
 CanvasRenderer:

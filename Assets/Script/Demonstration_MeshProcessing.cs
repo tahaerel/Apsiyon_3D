@@ -17,7 +17,7 @@ public class Demonstration_MeshProcessing : MonoBehaviour
 
     }
 
-    void ProcessTaggedObjects(string tag)
+   public void ProcessTaggedObjects(string tag)
     {
         GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag(tag);
 
