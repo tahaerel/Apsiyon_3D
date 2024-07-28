@@ -65034,7 +65034,6 @@ GameObject:
   - component: {fileID: 2040871007}
   - component: {fileID: 2040871006}
   - component: {fileID: 2040871005}
-  - component: {fileID: 2040871008}
   - component: {fileID: 2040871010}
   m_Layer: 0
   m_Name: Main Camera
@@ -65190,21 +65189,6 @@ MonoBehaviour:
   fastZoomSensitivity: 50
   minY: 1
   maxY: 25
---- !u!114 &2040871008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2040870999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6bc8068c837a7b4990208a27278d3ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cursorTexture: {fileID: 2800000, guid: ece8f5fa20f923548bb8ac342f719bdc, type: 3}
-  cursorMode: 0
-  hotSpot: {x: 0, y: 0}
 --- !u!222 &2040871010
 CanvasRenderer:
   m_ObjectHideFlags: 0
