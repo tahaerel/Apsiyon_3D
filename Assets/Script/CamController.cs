@@ -15,7 +15,6 @@ public class CamController : MonoBehaviour
 
     void Update()
     {
-        // Hareket
         float speed = movementSpeed;
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
@@ -49,11 +48,9 @@ public class CamController : MonoBehaviour
             newPosition += transform.up * speed * Time.deltaTime;
         }
 
-        // y ekseni sýnýrlarýný kontrol et
         newPosition.y = Mathf.Clamp(newPosition.y, minY, maxY);
         transform.position = newPosition;
 
-        // Dönüþ
         if (Input.GetMouseButtonDown(1))
         {
             looking = true;
@@ -70,7 +67,6 @@ public class CamController : MonoBehaviour
             transform.localEulerAngles = new Vector3(newRotationY, newRotationX, 0f);
         }
 
-        // Zoom
         float scroll = Input.GetAxis("Mouse ScrollWheel");
         if (scroll != 0.0f)
         {
@@ -80,7 +76,6 @@ public class CamController : MonoBehaviour
                 scrollSpeed = fastZoomSensitivity;
             }
             newPosition += transform.forward * scroll * scrollSpeed;
-            // y ekseni sýnýrlarýný kontrol et
             newPosition.y = Mathf.Clamp(newPosition.y, minY, maxY);
             transform.position = newPosition;
         }

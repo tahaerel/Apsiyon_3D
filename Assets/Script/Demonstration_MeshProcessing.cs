@@ -13,8 +13,6 @@ public class Demonstration_MeshProcessing : MonoBehaviour
         ProcessTaggedObjects("apartment-noelectric");
         ProcessTaggedObjects("apartment-borc");
         ProcessTaggedObjects("apartment-internet");
-       
-
     }
 
    public void ProcessTaggedObjects(string tag)

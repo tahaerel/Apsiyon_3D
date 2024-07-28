@@ -74,12 +74,12 @@ public static class MeshProcessor {
     }
 
     public static Vector3 GetClosestPointOnLine(Vector3 A, Vector3 B, Vector3 P) {
-        Vector3 AP = P - A;       //Vector from A to P   
-        Vector3 AB = B - A;       //Vector from A to B  
+        Vector3 AP = P - A;      
+        Vector3 AB = B - A;      
 
-        float magnitudeAB = AB.sqrMagnitude;     //Magnitude of AB vector (it's length squared)     
-        float ABAPproduct = Vector3.Dot(AP, AB);    //The DOT product of a_to_p and a_to_b     
-        float distance = ABAPproduct / magnitudeAB; //The normalized "distance" from a to your closest point  
+        float magnitudeAB = AB.sqrMagnitude;       
+        float ABAPproduct = Vector3.Dot(AP, AB);       
+        float distance = ABAPproduct / magnitudeAB; 
 
         return A + AB * distance;
     }
